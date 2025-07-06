@@ -666,6 +666,9 @@ body {
 
 .recipe__quantity {
   flex: none;
+}
+
+.recipe__quantity:not(:empty) {
   margin-right: .5rem;
 }
 
